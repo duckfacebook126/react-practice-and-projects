@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  margin :0;
 }
 
 h1 {
@@ -70,21 +71,24 @@ button:focus-visible {
 
 *{
 
+  box-sizing: border;
+}
+
+
 nav{
 
-height :90px;
 
+  display:flex;
+  align-items:center;
+  background-color: #21222A;
+  height:90px;
+  padding: 30px 25px;
 
 }
-
-
-nav >  h3{
-
-margin:0;
+.nav--logo_text,.nav--ttile{
+  margin:0;
 }
-nav> img{
-
-  width: 100px; /* Adjust width as needed */
-  height: auto;
-}
+.nav--logo_text{
+  margin-right:auto;
+  color: blue;
 }
