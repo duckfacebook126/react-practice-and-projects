@@ -1,12 +1,13 @@
 
-import Navbar from "./COmponents/Navbar"
-import MainComp from "./COmponents/MainComp"
+import './signup';
+import Signup from './signup';
+import Practice from './practice1';
  function Application()
 {
 
 return(<>
-<MainComp/>
-<Navbar/>
+<Signup isvalid={false}/>
+<Practice/>
 </>
  );
 } 

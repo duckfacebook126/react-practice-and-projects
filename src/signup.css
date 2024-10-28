@@ -1,0 +1,48 @@
+/* Center the body and html elements */
+body, html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+/* Style the form container */
+.signup-form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Black shadow */
+}
+
+/* Style the input fields */
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px; /* Rounded button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #3e3bcf;
+}
